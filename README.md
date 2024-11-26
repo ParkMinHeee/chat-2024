@@ -1,3 +1,3 @@
 #Chat 2024 Update
 
-CSS Study! Let's Go!
+HTML & CSS Study!! Let's Go!
