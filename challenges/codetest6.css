@@ -1,0 +1,221 @@
+/* DONT DELETE THIS */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+/* WRITE YOUR CODE BELOW */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #c6b20081;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  background-color: white;
+  width: 340px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: #ffce33;
+  height: 100px;
+  align-items: center;
+  font-size: 18px;
+}
+
+header i {
+  margin: 10px;
+}
+
+#search {
+  width: 320px;
+  height: 45px;
+  position: absolute;
+  background-color: white;
+  top: 14%;
+  left: 16%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#search span,
+#search i {
+  margin: 0px 25px 0px 25px;
+  opacity: 0.3;
+  font-size: 12px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: large;
+  padding: 20px 0px 20px 0px;
+}
+
+main {
+  height: 680px;
+  background-color: white;
+  padding: 30px 10px 0px 10px;
+}
+
+#book {
+  display: flex;
+}
+
+#book-img {
+  width: 105px;
+  height: 160px;
+  background-image: url('https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788936434120.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+#infomation {
+  margin: 0px 0px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#title {
+  font-weight: 600;
+}
+
+#writer {
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 0.3;
+}
+
+#star5 {
+  font-size: 12px;
+  color: #ffce33;
+}
+
+#category {
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  background-color: #f7f7f7;
+}
+#category div {
+  border-radius: 20px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+button {
+  border-radius: 50%;
+  border: none;
+  background-color: #ffce33;
+  width: 30px;
+}
+
+#book-mark {
+  display: flex;
+  height: 30px;
+}
+
+input {
+  margin: 0px 0px 0px 35px;
+  background-color: black;
+  color: white;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+#top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.books {
+  width: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#books-img1 {
+  width: 65px;
+  height: 105px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://store.kyobobook.co.kr/_next/image?url=https%3A%2F%2Fcontents.kyobobook.co.kr%2Fsih%2Ffit-in%2F144x222%2Fpdt%2F9788936434595.jpg&w=144&q=80');
+  border-radius: 8px;
+}
+
+#books-img2 {
+  width: 65px;
+  height: 105px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://store.kyobobook.co.kr/_next/image?url=https%3A%2F%2Fcontents.kyobobook.co.kr%2Fsih%2Ffit-in%2F144x222%2Fpdt%2F9788954682152.jpg&w=144&q=80');
+  border-radius: 8px;
+}
+
+#books-img3 {
+  width: 65px;
+  height: 105px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://store.kyobobook.co.kr/_next/image?url=https%3A%2F%2Fcontents.kyobobook.co.kr%2Fsih%2Ffit-in%2F144x222%2Fpdt%2F9788932020006.jpg&w=144&q=80');
+  border-radius: 8px;
+}
+
+#books-img4 {
+  width: 65px;
+  height: 105px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://store.kyobobook.co.kr/_next/image?url=https%3A%2F%2Fcontents.kyobobook.co.kr%2Fsih%2Ffit-in%2F144x222%2Fpdt%2F9788954651134.jpg&w=144&q=80');
+  border-radius: 8px;
+}
+
+#star4 {
+  font-size: 8px;
+  color: #ffce33;
+  margin: 15px 0px 0px 0px;
+}
+
+#popular {
+  display: flex;
+}
+
+#authors {
+  width: 105px;
+  height: 130px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://i.namu.wiki/i/2Di2tMYfwMBsoFmoLTIvDG0t9nLzSsuN3WnNc1Mgc3x5pgtObWg2SvaiZtDV-j3i1w6FppVWs3PupbNenv8T_YewhY1cxQk9dB0RIFe-hUFaVOH56GPFgEUa8Mb4dYMVE-XIqm3BA14zOLDtucoyDw.webp');
+  border-radius: 8px;
+}
+
+#authors-info {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0px 0px 0px 15px;
+}
+
+#history {
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.3;
+}

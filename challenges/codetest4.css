@@ -1,0 +1,79 @@
+body {
+  background-color: #6bbcbe;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.fa-solid {
+  color: white;
+}
+
+@keyframes circleFlip {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes barsFlip {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+#three {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  padding: 0px 0px 30px 0px;
+  animation: circleFlip 5s ease-in-out infinite;
+}
+#bar1,
+#bar2,
+#bar3,
+#bar4,
+#bar5 {
+  animation: barsFlip 2.5s ease-in-out infinite;
+}
+
+#bar1 {
+  animation-delay: 0s;
+}
+
+#bar2 {
+  animation-delay: 1s;
+}
+
+#bar3 {
+  animation-delay: 1.5s;
+}
+#bar4 {
+  animation-delay: 2s;
+}
+#bar5 {
+  animation-delay: 2.5s;
+}
+
+#bars {
+  padding: 30px 0px 0px 0px;
+}
+
+i {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+}

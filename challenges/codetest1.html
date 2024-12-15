@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kokoa Challenge</title>
+    <style>
+      body {
+        font-family: Georgia, serif;
+        font-size: 18px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+    <form>
+      <h1>Create An Account</h1>
+      <div>
+        <label for="first-name">First name</label>
+        <input placeholder="First name" type="text" id="first-name" required />
+      </div>
+      <div>
+        <label for="last-name">Last name</label>
+        <input placeholder="Last name" type="text" id="last-name" required />
+      </div>
+      <div>
+        <label for="e-mail">Email</label>
+        <input placeholder="Email" type="email" id="e-mail" required />
+      </div>
+      <div>
+        <label for="user-name">Username</label>
+        <input placeholder="Username" type="text" id="user-name" required />
+      </div>
+      <div>
+        <label for="pass-word">Password</label>
+        <input
+          placeholder="Password"
+          type="password"
+          id="pass-word"
+          minlength="10"
+          required
+        />
+      </div>
+      <div>
+        <label for="birth-date">Birth date</label>
+        <input type="date" id="birth-date" required />
+      </div>
+      <div>
+        <label for="happy">How happy are you?</label>
+        <input type="range" id="happy" name="happy" list="markers" />
+
+        <datalist id="markers">
+          <option value="0"></option>
+          <option value="10"></option>
+          <option value="20"></option>
+          <option value="30"></option>
+          <option value="40"></option>
+          <option value="50"></option>
+          <option value="60"></option>
+          <option value="70"></option>
+          <option value="80"></option>
+          <option value="90"></option>
+          <option value="100"></option>
+        </datalist>
+      </div>
+      <div>
+        <label for="color">What is your fav.color?</label>
+        <input type="color" id="color" required />
+      </div>
+      <input type="submit" value="Create Account" />
+    </form>
+  </body>
+</html>

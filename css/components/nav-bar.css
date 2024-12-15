@@ -1,0 +1,55 @@
+.nav {
+    /* 스크롤해도 계속 밑에 붙어있게 */
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 20px 50px;
+    /* box-sizing: border-box -> 내가 패딩을 줘도 box width를 고정시켜준다.(content가 보일 부분을 늘리지 않음) 
+        200픽셀의 박스에 50픽셀의 패딩을 주면, css는 기존 박스의 가로를 유지하기 위해 50만큼 박스를 늘림. -> 250px
+    이를 막기 위해 box-sizing:border-box를 쓰면 box의 크기를 유지한 채 padding을 줄 수 있다. -> 200px
+    */
+    box-sizing: border-box;
+    border-top: 1px solid rgba(121, 121, 121, 0.3);
+
+}
+
+.nav__list {
+    /* 각 한줄씩 있는걸. 한줄에 나란히 수평에 있게 해줌*/
+    display: flex;
+    /* 같은 간격으로 위치시켜줌 */
+    justify-content: space-between;
+}
+
+.nav__link {
+    /* 모든 link들은 기본값: blue 색상. color: inherit reset.css에 추가 입력 */
+    color: #2E363E;
+    position: relative;
+}
+
+.nav__notification {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    /* position: absolute는 가장 가까운 relative를 가진 부모 기준으로 움직임  */
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+.nav__dot {
+    background-color: tomato;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    display: block;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}

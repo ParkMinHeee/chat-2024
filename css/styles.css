@@ -1,0 +1,36 @@
+/* 
+    styles.css 파일엔 모든 스크린에 적용될 수 있는 스타일을 써놓음(로꼬썜 스타일)
+
+    form은 2가지 속성(attribute)
+    1. action : 어떤 페이지로 data를 보낼건지 지정할 수 있음. (action에 적어놓은 파일이 반드시 존재해야함)
+    2. method : 2가지 방식 중 하나를 쓸 수 있음.
+        1) POST: 백엔드 서버에 정보를 전송하는 방식.(지금 여기엔 서버가 없어서 못함)
+        2) GET: 보안에 취약.(ID,PW 같은거 넣으면 않됨) URL에 포함되도 상관없는 정보들을 보내야함.
+
+    import 순서 즁요 (순서가 않맞으면 불러올수 없을 수 있다)
+    1. 폰트
+    2. 리셋
+    3. variables
+*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #2E363E;
+}
+
+
+

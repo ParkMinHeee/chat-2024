@@ -1,0 +1,152 @@
+
+body {
+  border: 5px solid #00c6ad;
+  width: 410px;
+  height: 880px;
+}
+
+#palylist {
+  padding: 65px 0px 50px 30px;
+  font-weight: 800;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#list {
+  flex-grow: 1;
+  padding: 0px 150px 0px 120px;
+}
+
+#big-img {
+  width: 130px;
+  height: 135px;
+  background-color: #ffbd11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+#img-random {
+  display: flex;
+  margin: 0px 0px 45px 30px;
+}
+
+.fa-flip-horizontal {
+  color: white;
+  font-size: 40px;
+}
+
+#random {
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0px 0px 0px 20px;
+}
+
+.love {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+#by {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#middle {
+  display: flex;
+  font-size: 25px;
+  font-weight: 800;
+  /******* 그림자 적용하기 */
+  padding: 0px 0px 40px 0px;
+}
+
+#middle-1 {
+  height: 65px;
+  width: 180px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 0px 25px 0px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 8px solid black;
+}
+
+.circle1 {
+  width: 60px;
+  height: 65px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 8px solid black;
+}
+
+.fa-play,
+.fa-heart {
+  color: #00c6ad;
+  /* border: 2px solid black; */
+}
+
+#middle-2 {
+  margin: 0px 20px 0px 0px;
+}
+
+#bottom {
+  padding: 0px 0px 0px 30px;
+}
+
+.color {
+  width: 55px;
+  height: 55px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+#one,
+#two,
+#three,
+#four {
+  display: flex;
+  padding: 0px 0px 50px 0px;
+}
+
+.text {
+  display: flex;
+  margin: 0px 0px 0px 10px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#tomato {
+  background-color: #f85a2a;
+}
+
+#pink {
+  background-color: #ff89bb;
+}
+
+#blue {
+  background-color: #1947e5;
+}
+
+#green {
+  background-color: #00c6ad;
+}
+
+.big-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.small-text {
+  font-size: 15px;
+  opacity: 0.7;
+}
